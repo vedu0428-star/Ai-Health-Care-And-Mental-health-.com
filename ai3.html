@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mental Health Matters</title>
+<!-- Meta Tags -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="description" content="Explore how AI supports mental health by offering 24/7 availability, reducing stigma, detecting early signs, and providing personalized self-care.">
+<meta name="keywords" content="Mental Health, AI in Mental Health, Artificial Intelligence, Mental Wellness, Chatbots, Early Detection, Mindfulness, Healthcare AI">
+<meta name="author" content="Vedant, Dhruv, Sadhika, Rushda - SDSM College, Palghar">
+
+<!-- Theme color (for mobile browsers) -->
+<meta name="theme-color" content="#2e8b57">
+
+<!-- Open Graph (for social media) -->
+<meta property="og:title" content="Mental Health Matters 🌿">
+<meta property="og:description" content="AI is reshaping mental healthcare — offering 24/7 support, privacy, and personalized self-care solutions.">
+<meta property="og:image" content="ai6.jpg"> <!-- Replace with a hosted image URL -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://your-website-link.com/mental-health">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Mental Health Matters 🌿">
+<meta name="twitter:description" content="Discover how AI is breaking barriers in mental healthcare and providing stigma-free, accessible support.">
+<meta name="twitter:image" content="ai6.jpg"> <!-- Replace with hosted image -->
+
+<!-- Favicon -->
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="favicon.png">
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-image: url("ai6.jpg");
+    background-color: white;
+    color: blue;
+    border: solid;
+}
+
+/* Hero section */
+.hero {
+    background-color: mediumseagreen;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+.tagline {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: yellow;
+    margin-top: 10px;
+    animation: fadeIn 2s ease-in-out;
+}
+.hero p {
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Content sections with animation */
+.section {
+    background-color: white;
+    border: 5px solid mediumseagreen;
+    border-radius: 15px;
+    padding: 40px 30px;
+    max-width: 900px;
+    margin: 40px auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 1s ease-out;
+}
+.section.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.section h2 {
+    color: darkgreen;
+    margin-bottom: 20px;
+}
+.section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+.section ul {
+    list-style-type: square;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+.section ul li {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+/* Link button styling */
+.link-button {
+    display: inline-block;
+    background-color: darkgreen;
+    color: white;
+    padding: 12px 25px;
+    font-size: 1em;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+.link-button:hover {
+    background-color: seagreen;
+}
+
+/* Quote banner */
+.quote-banner {
+    background: mediumseagreen;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 1.2em;
+    font-style: italic;
+    border-radius: 8px;
+    margin: 30px auto;
+    max-width: 900px;
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 1s ease-out;
+}
+.quote-banner.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+.hero h1, .hero p {
+    animation: fadeIn 1.5s ease-in-out;
+}
+</style>
+</head>
+<body>
+
+<div class="hero">
+    <h1>🌿 Mental Health Matters</h1>
+    <p class="tagline">"Caring Minds, Powered by AI"</p>
+    <p>AI is reshaping mental healthcare — making support more available, personal, and stigma-free.</p>
+</div>
+
+<div class="section">
+<h2>📌 Importance of AI in Mental Health</h2>
+<p>AI is playing a powerful role in supporting mental wellness. Here's why it's important:</p>
+<ul>
+<li><strong>24/7 Availability:</strong> AI tools like chatbots offer help anytime, even late at night.</li>
+<li><strong>Reduces Stigma:</strong> People can talk to AI privately, without fear of judgment.</li>
+<li><strong>Cost-Effective:</strong> Helpful in rural or low-income areas where therapists are few.</li>
+<li><strong>Early Detection:</strong> AI can track mood, speech, and behavior to find early signs of issues.</li>
+<li><strong>Personalized Self-Care:</strong> Suggests breathing, mindfulness, or sleep tips based on mood.</li>
+<li><strong>Supports Professionals:</strong> Helps doctors analyze data and spend more time with patients.</li>
+</ul>
+<p><em>AI is not just smart — it's emotionally supportive, affordable, and always ready to help.</em></p>
+</div>
+
+<div class="quote-banner">
+    "AI in mental health — listening without judgment, helping without limits."
+</div>
+
+<center>
+<a href="index.html" class="link-button" target="_blank">Go To Home</a>
+
+<a href="ai.html" class="link-button" target="_blank">Contact Form</a>
+</center>
+
+<script>
+// Scroll-trigger animation
+function revealOnScroll() {
+    const sections = document.querySelectorAll('.section, .quote-banner');
+    sections.forEach(section => {
+        const sectionTop = section.getBoundingClientRect().top;
+        const windowHeight = window.innerHeight;
+        if (sectionTop < windowHeight - 50) {
+            section.classList.add('show');
+        }
+    });
+}
+
+window.addEventListener('scroll', revealOnScroll);
+window.addEventListener('load', revealOnScroll);
+</script>
+
+</body>
+</html>

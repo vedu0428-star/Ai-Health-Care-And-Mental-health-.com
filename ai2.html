@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Why AI is Used in Healthcare</title>
+<!-- Meta Tags -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="description" content="Discover why AI is used in healthcare: early disease detection, medical imaging, chatbots, personalized treatments, and remote monitoring that transform patient care.">
+<meta name="keywords" content="AI in Healthcare, Artificial Intelligence, Healthcare Technology, Medical Imaging, Early Detection, Personalized Medicine, Virtual Assistants, Remote Monitoring">
+<meta name="author" content="Vedant, SDSM College Palghar">
+
+<!-- Theme Color for mobile browsers -->
+<meta name="theme-color" content="#0f4c81">
+
+<!-- Open Graph (for social media previews) -->
+<meta property="og:title" content="Why AI is Used in Healthcare">
+<meta property="og:description" content="AI is transforming healthcare with smarter tools, early detection, and personalized treatment.">
+<meta property="og:image" content="ai5.jpeg"> <!-- Replace with a proper image URL if hosted -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://your-website-link.com">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Why AI is Used in Healthcare">
+<meta name="twitter:description" content="Explore how Artificial Intelligence improves speed, accuracy, and patient care in healthcare.">
+<meta name="twitter:image" content="ai5.jpeg"> <!-- Replace with hosted image URL -->
+
+<!-- Favicon -->
+<link rel="icon" type="image/png" href="favicon.png"> <!-- Replace with your favicon -->
+<link rel="apple-touch-icon" href="favicon.png">
+  <style>
+    body {
+      background-image: url("ai5.jpeg");
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: white;
+      color: blue;
+      border: solid;
+    }
+
+    .hero {
+      background: black;
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .hero h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+
+    .tagline {
+      font-size: 1.5em;
+      font-weight: bold;
+      color: yellow;
+      margin-top: 10px;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    .section {
+      border: 7px solid black;
+      padding: 40px 20px;
+      background-color: white;
+      font-family: Arial, sans-serif;
+      border-radius: 10px;
+      max-width: 900px;
+      margin: 40px auto;
+      opacity: 0;
+      transform: translateY(40px);
+      transition: all 1s ease-out;
+    }
+
+    .section.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .section h2 {
+      color: #0f4c81;
+      margin-bottom: 20px;
+    }
+
+    .section ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+
+    .section ul li {
+      margin-bottom: 10px;
+      font-size: 1em;
+    }
+
+    .link-button {
+      display: inline-block;
+      margin-top: 20px;
+      background-color: blue;
+      color: yellow;
+      padding: 12px 25px;
+      font-size: 2em;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .link-button:hover {
+      background-color: #08375e;
+    }
+
+    .quote-banner {
+      background: #0f4c81;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      font-size: 1.2em;
+      font-style: italic;
+      border-radius: 8px;
+      margin-top: 30px;
+      opacity: 0;
+      transform: translateY(40px);
+      transition: all 1s ease-out;
+    }
+
+    .quote-banner.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="hero">
+    <h1>Why is AI Used in Healthcare?</h1>
+    <p class="tagline">"Transforming Care, One Algorithm at a Time"</p>
+    <p>AI is revolutionizing healthcare with smart tools that improve speed, accuracy, and accessibility for patients and professionals.</p>
+  </div>
+
+  <div class="section">
+    <h2>🔍 What Makes AI Important in Health?</h2>
+    <p>Artificial Intelligence helps healthcare systems become faster, smarter, and more efficient. It analyzes large amounts of data quickly and accurately — something humans can't do alone in a short time.</p>
+
+    <p>AI is used in many parts of healthcare, such as:</p>
+    <ul>
+      <li><strong>Early disease detection</strong> – AI can find signs of cancer, diabetes, and heart conditions early.</li>
+      <li><strong>Medical imaging</strong> – AI reads X-rays, MRIs, and scans faster than humans, with fewer errors.</li>
+      <li><strong>Virtual assistants & chatbots</strong> – Available 24/7 to guide and support patients, especially in mental health.</li>
+      <li><strong>Personalized treatment</strong> – AI suggests customized medicine and therapy plans based on a patient’s data.</li>
+      <li><strong>Remote monitoring</strong> – Wearable devices with AI track heart rate, oxygen, or sugar levels at home.</li>
+    </ul>
+
+
+
+    <div class="quote-banner">
+      "AI in healthcare isn't the future — it's happening now."
+    </div>
+  </div>
+
+  <script>
+    // Scroll-trigger animation
+    function revealOnScroll() {
+      const sections = document.querySelectorAll('.section, .quote-banner');
+      sections.forEach(section => {
+        const sectionTop = section.getBoundingClientRect().top;
+        const windowHeight = window.innerHeight;
+        if (sectionTop < windowHeight - 50) {
+          section.classList.add('show');
+        }
+      });
+    }
+
+    window.addEventListener('scroll', revealOnScroll);
+    window.addEventListener('load', revealOnScroll);
+  </script>
+<center>
+    <a href="index.html" class="link-button" target="_blank">Go To Home</a>
+
+ <a href="ai3.html" class="link-button" target="_blank">Mental health Webpage</a>
+
+</center>
+
+</body>
+</html>
